@@ -138,3 +138,18 @@
         > 'python manage.py createsuperuser' dan ikuti perintah yang muncul
 
         modified:   README.md
+
+
+### -------------------------------------------------------------------------------
+### 5. JALANKAN DJANGO
+### -------------------------------------------------------------------------------
+
+
+#### 5.1 Menjalankan django untuk kali pertama
+
+        Steps:
+
+        1. Jalankan lokal server => python manage.py runserver
+        2. Buka browser, gunakan url ini => http://127.0.0.1:8000/
+
+        modified:   README.md
