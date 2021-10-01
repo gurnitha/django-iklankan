@@ -1,5 +1,7 @@
 ### MEMBUAT APLIKASI DENGAN NAMA 'IKLANKAN' MENGGUNAKAN DJANGO FRAMEWORK VERSI 3.2
 
+Github:
+https://github.com/gurnitha/django-iklankan
 
 ### ------------------------------------------------------
 ### 1. INISIAL SETUP
@@ -217,3 +219,8 @@
 #### 8.1 Modifikasi README.md file
 
         modified:   README.md
+
+
+#### 8.2 Membuat remote repository pada Gihub dan push files ke repository
+
+        https://github.com/gurnitha/django-iklankan
