@@ -153,3 +153,24 @@
         2. Buka browser, gunakan url ini => http://127.0.0.1:8000/
 
         modified:   README.md
+
+
+### -------------------------------------------------------------------------------
+### 6. HALLO WORLD
+### -------------------------------------------------------------------------------
+
+
+#### 6.1 Menampilkan Hallo World!
+
+        Steps:
+
+        1. Pada main/views
+           1.1 Buat home_page method
+           2.1 Import HttpResponse
+        2. Pada main app buat urls.py file 
+        3. Include urls dari main app pada urls proyek
+
+        modified:   README.md
+        new file:   apps/main/urls.py
+        modified:   apps/main/views.py
+        modified:   proyek/urls.py
