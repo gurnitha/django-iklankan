@@ -33,3 +33,16 @@
         modified:   README.md        
 
 
+#### 2.3 Meng-upgrade versi pip
+
+        Steps:
+
+        1. Upgrade pip
+        2. Cek versi pip setelah di-upgrade
+
+        modified:   README.md
+
+
+
+
+
