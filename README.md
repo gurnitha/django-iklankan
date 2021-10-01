@@ -11,3 +11,13 @@
         new file:   .gitignore
         new file:   README.md
 
+
+### -------------------------------------------------------------------------------
+### 2. MEMBUAT DJANGO PROYEK DAN APP
+### -------------------------------------------------------------------------------
+
+
+#### 2.1 Membuat virtual environment dengan nama 'venv3932'
+
+        modified:   .gitignore
+        modified:   README.md
