@@ -115,7 +115,19 @@
         modified:   proyek/settings.py
 
 
+### -------------------------------------------------------------------------------
+### 4. DJANGO ADMIN
+### -------------------------------------------------------------------------------
 
+
+#### 4.1 Aktifkan django admin
+
+        Steps:
+
+        1. Run migrate
+
+        modified:   README.md
+        modified:   proyek/settings.py
 
 
 
