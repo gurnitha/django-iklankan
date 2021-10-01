@@ -108,6 +108,14 @@
         modified:   proyek/settings.py
 
 
+#### 3.2 Setting up django-environ
+
+        modified:   .gitignore
+        modified:   README.md
+        modified:   proyek/settings.py
+
+
+
 
 
 
