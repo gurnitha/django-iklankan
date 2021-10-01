@@ -88,3 +88,26 @@
         modified:   README.md
         modified:   apps/main/apps.py
         modified:   proyek/settings.py
+
+
+### -------------------------------------------------------------------------------
+### 3. MEMBUAT DATABASE DGN MANGGUNAKAN MYSQL
+### -------------------------------------------------------------------------------
+
+
+#### 3.1 Membuat database
+
+        Steps:
+
+        1. Mengistall 'mysqlclient' package
+        2. Membuat database
+        3. Setting up database parameter pada proyek
+        4. Testing
+
+        modified:   README.md
+        modified:   proyek/settings.py
+
+
+
+
+
