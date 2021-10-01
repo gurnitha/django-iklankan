@@ -59,5 +59,20 @@
         new file:   proyek/wsgi.py
 
 
+#### 2.5 Membuat django app
 
+        Steps:
 
+        1. Cek perintah untuk membuat django app
+        2. Membuat direktori 'apps' dan main
+        3. Membuat django app dgn nama 'main' di dalam direktori 'apps' => 'apps/main'
+
+        modified:   README.md
+        new file:   apps/main/__init__.py
+        new file:   apps/main/admin.py
+        new file:   apps/main/apps.py
+        new file:   apps/main/migrations/__init__.py
+        new file:   apps/main/models.py
+        new file:   apps/main/tests.py
+        new file:   apps/main/views.py
+        modified:   proyek/settings.py
