@@ -174,3 +174,25 @@
         new file:   apps/main/urls.py
         modified:   apps/main/views.py
         modified:   proyek/urls.py
+
+
+### -------------------------------------------------------------------------------
+### 7. TEMPLATE, VIEWS, URLS DAN STATIC FILES
+### -------------------------------------------------------------------------------
+
+
+#### 7.1 Membuat halaman home page
+
+        Steps:
+
+        1. Aktifkan django template
+        2. Buat folder templates => templates
+        3. Buat folder 'main' di dalam templates => templates/main 
+        4. Buat index.html => templates/main/index.html
+        5. Buat home page pada index.html
+        6. Load index.html pada home_page method
+
+        modified:   README.md
+        modified:   apps/main/views.py
+        modified:   proyek/settings.py
+        new file:   templates/main/index.html

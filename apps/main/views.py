@@ -8,4 +8,4 @@ from django.http import HttpResponse
 
 # Nama halaman: home_page
 def home_page(request):
-	return HttpResponse('Hello World!')
+	return render(request, 'main/index.html')
