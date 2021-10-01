@@ -21,3 +21,15 @@
 
         modified:   .gitignore
         modified:   README.md
+
+
+#### 2.2 Menginstall Django v3.2
+
+        Steps:
+
+        1. Aktifkan venv3932
+        2. Install django
+
+        modified:   README.md        
+
+
