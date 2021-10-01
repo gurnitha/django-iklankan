@@ -130,4 +130,11 @@
         modified:   proyek/settings.py
 
 
+#### 4.2 Membuat superuser
 
+        Steps:
+
+        1. Dari terminal ketik ini:
+        > 'python manage.py createsuperuser' dan ikuti perintah yang muncul
+
+        modified:   README.md
