@@ -76,3 +76,15 @@
         new file:   apps/main/tests.py
         new file:   apps/main/views.py
         modified:   proyek/settings.py
+
+
+#### 2.6 Meregistrasi django app 'apps/main' pada proyek agar diketahui oleh proyek
+
+        Steps:
+
+        1. Re-name name pada apps.js dari name='main' => name='apps.main'
+        2. Registrasi apps/main pada settings.py
+
+        modified:   README.md
+        modified:   apps/main/apps.py
+        modified:   proyek/settings.py
