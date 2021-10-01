@@ -43,6 +43,21 @@
         modified:   README.md
 
 
+#### 2.4 Membuat django proyek
+
+        Steps:
+
+        1. Cek perintah untuk membuat django proyek
+        2. Membuat django proyek
+
+        modified:   README.md
+        new file:   manage.py
+        new file:   proyek/__init__.py
+        new file:   proyek/asgi.py
+        new file:   proyek/settings.py
+        new file:   proyek/urls.py
+        new file:   proyek/wsgi.py
+
 
 
 
