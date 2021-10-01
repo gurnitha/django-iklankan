@@ -196,3 +196,15 @@
         modified:   apps/main/views.py
         modified:   proyek/settings.py
         new file:   templates/main/index.html
+
+
+#### 7.2 Mengkonfigurasi static files
+
+        Steps:
+
+        1. Buat static folder => iklankan/static
+        2. Buat file custom.css => iklankan/static/custom.css
+        3. Buat konfigurasi static files pada settings.py
+        4. Serving static files during development
+        5. Load static files
+
