@@ -270,3 +270,17 @@ https://github.com/gurnitha/django-iklankan
         modified:   README.md
         new file:   templates/base.html
         modified:   templates/main/index.html
+
+
+#### 9.4 Mengelompokan bagian dari base template
+
+        Steps:
+
+        1. Load static files
+        2. Membuat block tamplate tags
+        3. Memindahkan kelompok kontent dari base template ke home page
+        4. Test 
+        
+        modified:   README.md
+        modified:   templates/base.html
+        modified:   templates/main/index.html
