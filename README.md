@@ -241,3 +241,18 @@ https://github.com/gurnitha/django-iklankan
 
         modified:   README.md
         modified:   templates/main/index.html
+
+
+#### 9.2 Menambahkan assets pada static files
+
+        Steps:
+
+        1. Tambahkan asset pada static files
+        2. Load atau unggah static files pada home page
+        3. Inspect hasilnya
+
+        modified:   README.md
+        new file:   static/css/flexslider.css
+        ...
+        new file:   static/css/font-awesome.min.css
+        modified:   templates/main/index.html

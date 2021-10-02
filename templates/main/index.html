@@ -7,20 +7,21 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <title>Resale_v2 a Classified ads Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <!-- bootstrap-CSS -->
-    <link rel="stylesheet" href="css/bootstrap-select.css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-select.css' %}">
     <!-- bootstrap-select-CSS -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" media="all" />
     <!-- style.css -->
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="screen" />
     <!-- flexslider-CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" />
     <!-- fontawesome-CSS -->
-    <link rel="stylesheet" href="css/menu_sideslide.css" type="text/css" media="all">
+    <link rel="stylesheet" href="{% static 'css/menu_sideslide.css' %}" type="text/css" media="all">
     <!-- Navigation-CSS -->
     <!-- meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -709,7 +710,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="w3l-popular-ads-info">
                 <div class="col-md-4 w3ls-portfolio-left">
                     <div class="portfolio-img event-img">
-                        <img src="images/ad1.jpg" class="img-responsive" alt=""/>
+                        <img src="{% static 'images/ad1.jpg' %}" class="img-responsive" alt=""/>
                         <div class="over-image"></div>
                     </div>
                     <div class="portfolio-description">
@@ -723,7 +724,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <div class="col-md-4 w3ls-portfolio-left">
                     <div class="portfolio-img event-img">
-                        <img src="images/ad2.jpg" class="img-responsive" alt=""/>
+                        <img src="{% static 'images/ad2.jpg' %}" class="img-responsive" alt=""/>
                         <div class="over-image"></div>
                     </div>
                     <div class="portfolio-description">
@@ -737,7 +738,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <div class="col-md-4 w3ls-portfolio-left">
                     <div class="portfolio-img event-img">
-                        <img src="images/ad3.jpg" class="img-responsive" alt=""/>
+                        <img src="{% static 'images/ad3.jpg' %}" class="img-responsive" alt=""/>
                         <div class="over-image"></div>
                     </div>
                     <div class="portfolio-description">
@@ -751,7 +752,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <div class="col-md-4 w3ls-portfolio-left">
                     <div class="portfolio-img event-img">
-                        <img src="images/ad4.jpg" class="img-responsive" alt=""/>
+                        <img src="{% static 'images/ad4.jpg' %}" class="img-responsive" alt=""/>
                         <div class="over-image"></div>
                     </div>
                     <div class="portfolio-description">
@@ -765,7 +766,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <div class="col-md-4 w3ls-portfolio-left">
                     <div class="portfolio-img event-img">
-                        <img src="images/ad5.jpg" class="img-responsive" alt=""/>
+                        <img src="{% static 'images/ad5.jpg' %}" class="img-responsive" alt=""/>
                         <div class="over-image"></div>
                     </div>
                     <div class="portfolio-description">
@@ -779,7 +780,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <div class="col-md-4 w3ls-portfolio-left">
                     <div class="portfolio-img event-img">
-                        <img src="images/ad6.jpg" class="img-responsive" alt=""/>
+                        <img src="{% static 'images/ad6.jpg' %}" class="img-responsive" alt=""/>
                         <div class="over-image"></div>
                     </div>
                     <div class="portfolio-description">
@@ -804,7 +805,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p1.jpg" alt="" />
+                                <img src="{% static 'images/p1.jpg' %}" alt="" />
                                 <span class="price">&#36; 450</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -814,7 +815,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p2.jpg" alt="" />
+                                <img src="{% static 'images/p2.jpg' %}" alt="" />
                                 <span class="price">&#36; 399</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -824,7 +825,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p3.jpg" alt="" />
+                                <img src="{% static 'images/p3.jpg' %}" alt="" />
                                 <span class="price">&#36; 199</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -834,7 +835,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p4.jpg" alt="" />
+                                <img src="{% static 'images/p4.jpg' %}" alt="" />
                                 <span class="price">&#36; 159</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -846,7 +847,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p5.jpg" alt="" />
+                                <img src="{% static 'images/p5.jpg' %}" alt="" />
                                 <span class="price">&#36; 1599</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -856,7 +857,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p6.jpg" alt="" />
+                                <img src="{% static 'images/p6.jpg' %}" alt="" />
                                 <span class="price">&#36; 1099</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -866,7 +867,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p7.jpg" alt="" />
+                                <img src="{% static 'images/p7.jpg' %}" alt="" />
                                 <span class="price">&#36; 109</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -876,7 +877,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p8.jpg" alt="" />
+                                <img src="{% static 'images/p8.jpg' %}" alt="" />
                                 <span class="price">&#36; 189</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -888,7 +889,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p9.jpg" alt="" />
+                                <img src="{% static 'images/p9.jpg' %}" alt="" />
                                 <span class="price">&#36; 2599</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -898,7 +899,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p10.jpg" alt="" />
+                                <img src="{% static 'images/p10.jpg' %}" alt="" />
                                 <span class="price">&#36; 3999</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -908,7 +909,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p11.jpg" alt="" />
+                                <img src="{% static 'images/p11.jpg' %}" alt="" />
                                 <span class="price">&#36; 2699</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -918,7 +919,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="col-md-3 biseller-column">
                                 <a href="single.html">
-                                <img src="images/p12.jpg" alt="" />
+                                <img src="{% static 'images/p12.jpg' %}" alt="" />
                                 <span class="price">&#36; 899</span>
                                 </a> 
                                 <div class="w3-ad-info">
@@ -937,16 +938,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <h3>Our Partners</h3>
             <div class="container">
                 <ul>
-                    <li><a href="#"><img class="img-responsive" src="images/p-1.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-2.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-3.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-4.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-5.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-6.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-7.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-8.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-9.png" alt=""></a></li>
-                    <li><a href="#"><img class="img-responsive" src="images/p-10.png" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-1.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-2.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-3.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-4.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-5.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-6.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-7.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-8.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-9.png' %}" alt=""></a></li>
+                    <li><a href="#"><img class="img-responsive" src="{% static 'images/p-10.png' %}" alt=""></a></li>
                 </ul>
             </div>
         </div>
@@ -955,7 +956,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="agile-info-mobile-app">
             <div class="container">
                 <div class="col-md-5 w3-app-left">
-                    <a href="mobileapp.html"><img src="images/app.png" alt=""></a>
+                    <a href="mobileapp.html"><img src="{% static 'images/app.png' %}" alt=""></a>
                 </div>
                 <div class="col-md-7 w3-app-right">
                     <h3>Resale App is the <span>Easiest</span> way for Selling and buying second-hand goods</h3>
@@ -1051,15 +1052,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </footer>
     <!--footer section end-->
     <!-- Navigation-Js-->
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/classie.js"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/classie.js' %}"></script>
     <!-- //Navigation-Js-->
     <!-- js -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
     <!-- js -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap-select.js"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/bootstrap-select.js' %}"></script>
     <script>
         $(document).ready(function () {
         var mySelect = $('#first-disabled2');
@@ -1081,17 +1082,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         });
     </script>
     <!-- language-select -->
-    <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
-    <link href="css/jquery.uls.css" rel="stylesheet"/>
-    <link href="css/jquery.uls.grid.css" rel="stylesheet"/>
-    <link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+    <script type="text/javascript" src="{% static 'js/jquery.leanModal.min.js' %}"></script>
+    <link href="{% static 'css/jquery.uls.css' %}" rel="stylesheet"/>
+    <link href="{% static 'css/jquery.uls.grid.css' %}" rel="stylesheet"/>
+    <link href="{% static 'css/jquery.uls.lcd.css' %}" rel="stylesheet"/>
     <!-- Source -->
-    <script src="js/jquery.uls.data.js"></script>
-    <script src="js/jquery.uls.data.utils.js"></script>
-    <script src="js/jquery.uls.lcd.js"></script>
-    <script src="js/jquery.uls.languagefilter.js"></script>
-    <script src="js/jquery.uls.regionfilter.js"></script>
-    <script src="js/jquery.uls.core.js"></script>
+    <script src="{% static 'js/jquery.uls.data.js' %}"></script>
+    <script src="{% static 'js/jquery.uls.data.utils.js' %}"></script>
+    <script src="{% static 'js/jquery.uls.lcd.js' %}"></script>
+    <script src="{% static 'js/jquery.uls.languagefilter.js' %}"></script>
+    <script src="{% static 'js/jquery.uls.regionfilter.js' %}"></script>
+    <script src="{% static 'js/jquery.uls.core.js' %}"></script>
     <script>
         $( document ).ready( function() {
             $( '.uls-trigger' ).uls( {
@@ -1104,7 +1105,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         } );
     </script>
     <!-- //language-select -->
-    <script type="text/javascript" src="js/jquery.flexisel.js"></script><!-- flexisel-js -->    
+    <script type="text/javascript" src="{% static 'js/jquery.flexisel.js' %}"></script><!-- flexisel-js -->    
     <script type="text/javascript">
         $(window).load(function() {
         $("#flexiselDemo3").flexisel({
@@ -1134,7 +1135,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
          
     </script>
     <!-- Slider-JavaScript -->
-    <script src="js/responsiveslides.min.js"></script>  
+    <script src="{% static 'js/responsiveslides.min.js' %}"></script>  
     <script>
         $(function () { 
           $("#slider").responsiveSlides({
@@ -1167,8 +1168,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             });
     </script>
     <!-- start-smoth-scrolling -->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/easing.js' %}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event){     
