@@ -343,6 +343,15 @@ https://github.com/gurnitha/django-iklankan
 
         1. Catatkan model SliderTop pada admin.py
         2. Lihat hasilnya
-        
+
         modified:   README.md
         modified:   apps/main/admin.py
+
+
+#### 10.4 Mempersiapkan data untuk SliderTop
+
+        Steps:
+
+        1. Ambil data dari template
+        
+        modified:   README.md
