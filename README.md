@@ -466,3 +466,30 @@ https://github.com/gurnitha/django-iklankan
         modified:   README.md
         modified:   templates/base.html
         modified:   templates/main/index.html
+
+
+### -----------------------------------------------------------------
+### 11. DJANGO MVT HOME PAGE: CATEGORI
+### -----------------------------------------------------------------
+
+
+#### 11.1 Membuat Kategori model, migrasi, admin dan mengisi data
+
+        Steps:
+
+        1. Membuat analisa code
+        2. Membuat dumi data kategori hasil analisis
+        3. Membuat Kategori model
+        4. Menjalankan migrasi dan lihat hasilnya pd db
+        5. Mencatatan Kategori model pada admin dan
+           lihat hasilnya pada Admin panel
+        6. Menambahkan slug field pada Kategori model
+           -jalankan migrasi
+        7. Membuat slug field terisi secara otomatis
+        8. Memasukan data pada tabel Kategori
+
+        modified:   README.md
+        modified:   apps/main/admin.py
+        new file:   apps/main/migrations/0004_kategori.py
+        new file:   apps/main/migrations/0005_kategori_slug.py
+        modified:   apps/main/models.py
