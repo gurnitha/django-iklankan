@@ -493,3 +493,18 @@ https://github.com/gurnitha/django-iklankan
         new file:   apps/main/migrations/0004_kategori.py
         new file:   apps/main/migrations/0005_kategori_slug.py
         modified:   apps/main/models.py
+
+
+
+#### 11.2 Memanggil dan mendisplay data Kategori dari database pada home page
+
+        Steps:
+
+        1. Mingimpor Kategori model
+        2. Memanggil semua data dari Kategori tabel
+        3. Menempatkannya pada context
+        4. Mendisplay data Kategori pada Kategori di home page
+        5. Hasilnya
+        
+        modified:   apps/main/views.py
+        modified:   templates/main/index.html
