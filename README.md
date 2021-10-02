@@ -552,3 +552,21 @@ https://github.com/gurnitha/django-iklankan
         modified:   README.md
         new file:   apps/main/migrations/0008_iklan_klasifikasi.py
         modified:   apps/main/models.py
+
+
+#### 12.3 Menampilkan data Iklan terpopular pada home page
+
+        Steps:
+
+        1. Mengimpor model Iklan 
+        2. Memanggil data iklan dgn klasisifkai terpopular 
+           dan tempatkan mereka pada varibel iklan_terpopuler
+        3. Tambahkan ke dalam context
+        4. Tampilkan data pada blok Iklan Terpopular pada home page
+        5. Lihat hasilnya
+
+        modified:   README.md
+        modified:   apps/main/views.py
+        new file:   media/iklan/images/ad3.jpg
+        new file:   media/iklan/images/art.jpg
+        modified:   templates/main/index.html
