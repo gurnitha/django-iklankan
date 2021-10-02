@@ -377,3 +377,18 @@ https://github.com/gurnitha/django-iklankan
         2. Buka table Slider Top 
 
         modified:   README.md
+
+
+#### 10.7 Menampilkan data SliderTop pada home page
+
+        Steps:
+
+        1. Buka views.py dan import SliderTop model 
+        2. Ambil semua data dari SliderTop dan tempatkan pada sebuah variabel
+        3. Tempatkan variable tsb pada context
+        4. Masukan context sebagai parameter dari render method 
+        5. Tampilkan semua data pada Slider top di home page
+
+        modified:   README.md
+        modified:   apps/main/views.py
+        modified:   templates/base.html
