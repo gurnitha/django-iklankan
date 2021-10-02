@@ -280,7 +280,20 @@ https://github.com/gurnitha/django-iklankan
         2. Membuat block tamplate tags
         3. Memindahkan kelompok kontent dari base template ke home page
         4. Test 
-        
+
         modified:   README.md
         modified:   templates/base.html
         modified:   templates/main/index.html
+
+
+#### 9.5 Konklusi
+
+        Menggunakan template dan template inheritance
+        membuat pekerjaan menjadi:
+        
+        1. Lebih efisien.
+        2. Tidak melakukan pengulangan codes karena
+           pengulangan codes dapat dihindari.
+        3. Hasilnya tetap sama.
+
+        modified:   README.md
