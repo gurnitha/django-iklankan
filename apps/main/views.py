@@ -12,5 +12,6 @@ from apps.main.models import SliderTop
 # Nama halaman: home_page
 def home_page(request):
 	slider_tops = SliderTop.objects.all()
+	print(slider_tops)
 	context = {'slider_tops':slider_tops,}
 	return render(request, 'main/index.html', context)

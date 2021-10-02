@@ -392,3 +392,53 @@ https://github.com/gurnitha/django-iklankan
         modified:   README.md
         modified:   apps/main/views.py
         modified:   templates/base.html
+
+
+
+#### 10.8 Memindahkan background image SliderTop dari css ke template
+
+        Steps:
+
+        1. Pindahkan backgound image dari css ke template
+        2. Non-aktifkan url image pada css
+        2. Periksa hasilnya di browser
+
+
+
+#### 10.9 (TIDAK BERHSIL) Membuat background image SliderTop dinamis
+
+        Steps:
+
+        1. Tambahkan image field pada SliderTop model
+        2. Install Pillow
+        3. Jalankan migrasi
+        4. Buat path untuk image
+        5. Masukan data image pada tabel di database
+        6. Menampilkan image dari database pada slider
+
+        NOTE:
+
+        1. Berhasil tapi tidak sempurna.
+        2. Diputuskan untuk kembali ke posisi 10.7
+
+        modified:   README.md
+        new file:   apps/main/migrations/0002_slidertop_image.py
+        new file:   apps/main/migrations/0003_alter_slidertop_image.py
+        modified:   apps/main/models.py
+        modified:   apps/main/views.py
+        new file:   media/slider-top/images/SushantSinghRajput.PNG
+        new file:   media/slider-top/images/art.jpg
+        new file:   media/slider-top/images/art_6G88H5r.jpg
+        new file:   media/slider-top/images/art_FNJUtKd.jpg
+        new file:   media/slider-top/images/art_HddeWtO.jpg
+        new file:   media/slider-top/images/art_p8rpjk8.jpg
+        new file:   media/slider-top/images/art_tjebAhM.jpg
+        new file:   media/slider-top/images/banner.jpg
+        new file:   media/slider-top/images/contact01.PNG
+        new file:   media/slider-top/images/contact01_94WbuNs.PNG
+        new file:   media/slider-top/images/contact02.PNG
+        modified:   proyek/settings.py
+        modified:   proyek/urls.py
+        modified:   templates/base.html
+
+

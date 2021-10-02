@@ -15,6 +15,9 @@ class SliderTop(models.Model):
 		max_length=200,
 		blank=False,
 		null=False)
+	image = models.ImageField(
+		blank=True, null=True,
+		upload_to='slider-top/images')
 
 	class Meta:
 		verbose_name = 'Slider top'
