@@ -52,7 +52,31 @@ class Kategori(models.Model):
 		return self.nama_kategori
 
 
+# Nama model: Iklan
+class Iklan(models.Model):
+	nama_iklan = models.CharField(
+		max_length=200,
+		blank=False,
+		help_text='Field ini tidak boleh dikosongkan.')
+	slug = models.SlugField(
+		max_length=100,
+		unique=True,
+		help_text='Field ini akan terisi secara otomatis.')
+	kategori_iklan = models.ForeignKey(
+		Kategori,
+		on_delete=models.CASCADE,
+		help_text='Pilih kategori. Field ini tidak boleh dikosongkan.')
+	image = models.ImageField(
+		blank=True, null=True,
+		upload_to='iklan/images')
+	deskripsi_singkat = models.CharField(
+		max_length=200,
+		blank=False,
+		help_text='Field ini tidak boleh dikosongkan.')
 
+	class Meta:
+		verbose_name = 'Iklan'
+		verbose_name_plural = 'Iklan'
 
-
-
+	def __str__(self):
+		return self.nama_iklan

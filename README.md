@@ -508,3 +508,34 @@ https://github.com/gurnitha/django-iklankan
         
         modified:   apps/main/views.py
         modified:   templates/main/index.html
+
+
+### -----------------------------------------------------------------
+### 12. DJANGO MVT HOME PAGE: IKLAN TERPOPULER
+### -----------------------------------------------------------------
+
+
+#### 12.1 Membuat Iklan model, migrasi, admin dan mengisi data
+
+        Steps:
+
+        1. Membuat analisa code
+        2. Membuat dumi data Iklan hasil analisis
+        3. Membuat Iklan model
+        4. Menjalankan migrasi dan lihat hasilnya pd db
+        5. Mencatatan Iklan model pada admin dan
+           lihat hasilnya pada Admin panel
+        6. Menambahkan field deskripsi_singkat pada Iklan model
+        7. Memasukan data pada tabel Iklan
+
+        modified:   README.md
+        modified:   apps/main/admin.py
+        new file:   apps/main/migrations/0006_iklan.py
+        new file:   apps/main/migrations/0007_iklan_deskripsi_singkat.py
+        modified:   apps/main/models.py
+        new file:   media/iklan/images/ad1.jpg
+        new file:   media/iklan/images/ad2.jpg
+        new file:   media/iklan/images/ad4.jpg
+        new file:   media/iklan/images/ad5.jpg
+        new file:   media/iklan/images/cat11.png
+        new file:   media/iklan/images/client_1.jpg
