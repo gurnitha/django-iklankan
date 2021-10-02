@@ -224,3 +224,20 @@ https://github.com/gurnitha/django-iklankan
 #### 8.2 Membuat remote repository pada Gihub dan push files ke repository
 
         https://github.com/gurnitha/django-iklankan
+
+
+### ------------------------------------------------------
+### 9. TEMPLATE DAN TEMPLATE INHERITANCE
+### ------------------------------------------------------
+
+
+#### 9.1 Menamabahkan html template pada home page
+
+        Steps:
+
+        1. Copy paste html template pada index.html
+        2. Lakukan test
+        3. Note: tampilannya tdk sempurna krn assets(js, css) belum ada
+
+        modified:   README.md
+        modified:   templates/main/index.html
