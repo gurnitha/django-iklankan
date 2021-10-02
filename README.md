@@ -353,5 +353,17 @@ https://github.com/gurnitha/django-iklankan
         Steps:
 
         1. Ambil data dari template
-        
+
+        modified:   README.md
+
+
+#### 10.5 Memasukan data pada tabel SliderTop di dalam database
+
+        Steps:
+
+        1. Ambil data 
+        3. Masukan data
+        2. Save
+        3. Ulangi lagi step 1, 2 dan 3
+
         modified:   README.md
