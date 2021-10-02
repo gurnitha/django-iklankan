@@ -54,6 +54,13 @@ class Kategori(models.Model):
 
 # Nama model: Iklan
 class Iklan(models.Model):
+
+	KLASIFIKASI_IKLAN = (
+		('Terbaru', 'Terbaru'),
+		('Terpopuler', 'Terpopuler'),
+		('Trending', 'Trending'),
+	)
+
 	nama_iklan = models.CharField(
 		max_length=200,
 		blank=False,
@@ -62,6 +69,12 @@ class Iklan(models.Model):
 		max_length=100,
 		unique=True,
 		help_text='Field ini akan terisi secara otomatis.')
+	klasifikasi = models.CharField(
+		choices=KLASIFIKASI_IKLAN,
+		max_length=100,
+		blank=False,
+		default='Terbaru',
+		help_text='Pilih klasifikasi iklan.')
 	kategori_iklan = models.ForeignKey(
 		Kategori,
 		on_delete=models.CASCADE,

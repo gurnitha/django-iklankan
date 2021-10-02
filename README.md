@@ -539,3 +539,16 @@ https://github.com/gurnitha/django-iklankan
         new file:   media/iklan/images/ad5.jpg
         new file:   media/iklan/images/cat11.png
         new file:   media/iklan/images/client_1.jpg
+
+
+#### 12.2 Menambahkan klasifikasi iklan field pada Iklan model
+
+        Steps:
+
+        1. Buat KLASIFIKASI_IKLAN
+        2. Buat klasifikasi field menggunakan pilihan KLASIFIKASI_IKLAN
+        2. Jalankan migrasi
+
+        modified:   README.md
+        new file:   apps/main/migrations/0008_iklan_klasifikasi.py
+        modified:   apps/main/models.py
