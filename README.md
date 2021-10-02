@@ -455,9 +455,14 @@ https://github.com/gurnitha/django-iklankan
         2. Paste slider component pada index.html
         3. Hapus slider component dari base template
         4. Test
-        
+
         modified:   README.md
         modified:   templates/base.html
         modified:   templates/main/index.html
 
 
+#### 10.12 Membenahi tata letak codes
+
+        modified:   README.md
+        modified:   templates/base.html
+        modified:   templates/main/index.html
