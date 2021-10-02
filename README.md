@@ -297,3 +297,20 @@ https://github.com/gurnitha/django-iklankan
         3. Hasilnya tetap sama.
 
         modified:   README.md
+
+
+### ------------------------------------------------------
+### 10. DJANGO MVT: MODEL, VIEWS DAN TEMPLATES
+### ------------------------------------------------------
+
+
+#### 10.1 Membuat skema model Slider
+
+        Steps:
+
+        1. Analisis template codes
+        2. Membuat skema model/tabel Slider
+
+        modified:   README.md
+        modified:   apps/main/models.py       
+
