@@ -335,3 +335,14 @@ https://github.com/gurnitha/django-iklankan
 
         modified:   README.md
         new file:   apps/main/migrations/0001_initial.py
+
+
+#### 10.3 Mencatatkan model SliderTop pada admin.py
+
+        Steps:
+
+        1. Catatkan model SliderTop pada admin.py
+        2. Lihat hasilnya
+        
+        modified:   README.md
+        modified:   apps/main/admin.py
