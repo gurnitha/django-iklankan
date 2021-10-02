@@ -314,3 +314,24 @@ https://github.com/gurnitha/django-iklankan
         modified:   README.md
         modified:   apps/main/models.py       
 
+
+#### 10.2 Migrasi
+
+        Steps:
+
+        1. Buka terminal dan pastikan terminal pointing proyek root
+           dan virtual environmenet dalam keadaan aktif
+        2. Melihat perintah yang tersedia
+        3. Jalankan migrasi
+        3. Lihat hasilnya
+
+        Note:
+
+        Migrasi adalah cara Django menyebarkan perubahan yang Anda buat 
+        pada model Anda (menambahkan bidang, menghapus model, dll.) 
+        ke dalam skema basis data Anda. 
+
+        Source: https://docs.djangoproject.com/en/3.2/topics/migrations/
+
+        modified:   README.md
+        new file:   apps/main/migrations/0001_initial.py
