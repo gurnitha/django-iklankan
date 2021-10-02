@@ -518,45 +518,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </header>
     <!--============================== Header // ==============================-->
 
-    <!--============================== Slider ==============================-->
-    <div class="slider">
-        
-        <ul class="rslides" id="slider">
-            
-            {% if slider_tops %}
-                {% for slider in slider_tops %}
-                <!-- Slider card -->
-                <li>
-                    <div class="w3ls-slide-text">
-                        <h3>{{slider.slider_title}}</h3>
-                        <a 
-                            href="categories.html" 
-                            class="w3layouts-explore-all">
-                            {{slider.link}}
-                        </a>
-                    </div>
-                </li>
-                <!-- Slider card //-->
-                {% endfor %}
-            {% else %}
-                <!-- Slider card -->
-                <li>
-                    <div class="w3ls-slide-text">
-                        <h3>Tidak ditemukan slider</h3>
-                        <a 
-                            href="categories.html" 
-                            class="w3layouts-explore-all">
-                            Kembali &larr;
-                        </a>
-                    </div>
-                </li>  
-                <!-- Slider card //-->
-            {% endif %}
-            
-        </ul>
-    </div>
-    <!--============================== Slider // ==============================-->
-
     <!--============================== Content ==============================-->
     {% block content %}
     {% endblock content %}

@@ -299,9 +299,9 @@ https://github.com/gurnitha/django-iklankan
         modified:   README.md
 
 
-### ------------------------------------------------------
-### 10. DJANGO MVT: MODEL, VIEWS DAN TEMPLATES
-### ------------------------------------------------------
+### -----------------------------------------------------------------
+### 10. DJANGO MVT HOME PAGE: MODEL, VIEWS DAN TEMPLATES - SLIDER TOP
+### -----------------------------------------------------------------
 
 
 #### 10.1 Membuat skema model Slider
@@ -440,5 +440,24 @@ https://github.com/gurnitha/django-iklankan
         modified:   proyek/settings.py
         modified:   proyek/urls.py
         modified:   templates/base.html
+
+
+#### 10.10 Modifikasi README.md
+
+        modified:   README.md
+
+
+#### 10.11 Memindahkan Slider Top dari base template ke home page
+
+        Steps:
+
+        1. Copy slider component dari base template
+        2. Paste slider component pada index.html
+        3. Hapus slider component dari base template
+        4. Test
+        
+        modified:   README.md
+        modified:   templates/base.html
+        modified:   templates/main/index.html
 
 
