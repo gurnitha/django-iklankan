@@ -367,3 +367,13 @@ https://github.com/gurnitha/django-iklankan
         3. Ulangi lagi step 1, 2 dan 3
 
         modified:   README.md
+
+
+#### 10.6 Lihat hasilnya
+
+        Steps:
+
+        1. Buka Admin panel
+        2. Buka table Slider Top 
+
+        modified:   README.md
