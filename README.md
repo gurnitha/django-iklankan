@@ -256,3 +256,17 @@ https://github.com/gurnitha/django-iklankan
         ...
         new file:   static/css/font-awesome.min.css
         modified:   templates/main/index.html
+
+
+#### 9.3 Menggunakan template inheritance
+
+        Steps:
+
+        1. Membuat base.html template
+        2. Pindahkan home template ke base.html
+        3. Extends base.html pada home page (index.html)
+        4. Test hasilnya
+
+        modified:   README.md
+        new file:   templates/base.html
+        modified:   templates/main/index.html
